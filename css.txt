@@ -1,0 +1,151 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Forum&family=Keania+One&display=swap');
+
+/* Colors */
+
+.navbar-brand {}
+
+
+/* Universal */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: forum, Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background: linear-gradient(35deg, #1B1A16, #faf1d0);
+}
+
+
+/* Header */
+
+#nav {
+    width: 90%;
+    height: 100px;
+    display: flex;
+    justify-content: end;
+    position: fixed;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+}
+
+#logo img {
+    position: absolute;
+    left: 100px;
+    top: -20px;
+    height: 125px;
+    font-family: Dosis, sans-serif;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-family: inherit;
+}
+
+.nav-li {
+    padding: 0;
+    margin: 50px;
+    cursor: pointer;
+    transition: all 0.5s;
+    font-size: 20px;
+}
+
+.nav-li:hover {
+    color: green;
+    transition: all 0.5s ease-in-out;
+}
+
+
+/*----------------- Home ---------------*/
+
+#Home {
+    /* background: linear-gradient(135deg, #c7c2ad ,#fffefc 90% ); */
+    /* background-image: url("../Images/bgrem.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+#home-div {
+    position: absolute;
+    top: 35%;
+    left: 60%;
+    width: 400px;
+    height: 300px;
+}
+
+#home-div h1 {
+    font-size: 50px;
+    margin-bottom: 15px;
+    color: #181D27;
+    font-family: 'keania one', sans-serif;
+}
+
+#home-div p {
+    font-size: 25px;
+    font-style: italic;
+    color: #4d4b45;
+}
+
+
+
+
+#Products {
+    height: 80vh;
+    width: 100%;
+    /* background-color: #849494; */
+}
+
+#product-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#products-title {
+    text-align: center;
+    font-size: 45px;
+    height: 90px;
+}
+
+.product {
+    width: 25%;
+    height: 60vh;
+    flex-direction: row;
+    border-radius: 20px;
+}
+
+.pr1 {
+    background-color: #334363;
+}
+
+.pr2 {
+    background-color: #c7c2ad;
+}
+
+.pr3 {
+    background-color: bisque;
+}
+
+.pr4 {
+    background-color: black;
+}
+
+
+/* About */
+
+#about {
+    /* background-color: black; */
+}
